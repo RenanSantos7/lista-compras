@@ -1,0 +1,10 @@
+.paper {
+    margin-inline: auto;
+    margin-top: 2rem;
+    height: calc(100vh - 92px);
+    width: min(800px, 95%);
+    background-color: var(--gray5);
+    padding: 2rem;
+    border-radius: var(--borderRadiusL) var(--borderRadiusL) 0 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}

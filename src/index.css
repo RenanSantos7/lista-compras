@@ -1,1 +1,37 @@
 @import url('https://renan-santos.netlify.app/styles/reset.css');
+
+:root {
+    --background: #fafafa;
+    --texto: #101010;
+
+    --color1: #DA667B;
+    --color2: #33CA7F;
+    --color3: #3590F3;
+    --gray1: #495057;
+    --gray2: #6C757D;
+    --gray3: #ADB5BD;
+    --gray4: #CED4DA;
+    --gray5: #DEE2E6;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root{
+        --background: #2b2b2b;
+        --texto: #fafafa;
+
+        --color1: #C25267;
+        --color2: #3AA16E;
+        --color3: #277CD7;
+        --gray1: #3C4248;
+        --gray2: #5B6268;
+        --gray3: #8B96A2;
+        --gray4: #A5B0BB;
+        --gray5: #B3BCC6;
+    }
+}
+
+body {
+    background-color: var(--background);
+    color: var(--texto);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

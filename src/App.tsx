@@ -1,7 +1,9 @@
-import styles from './App.css'
+import { RouterProvider } from "react-router-dom";
+import router from "./router.tsx";
 
 export default function App() {
   return (
-    <div>Olá Mundo</div>
+    <RouterProvider router={router} />
   )
+
 }
